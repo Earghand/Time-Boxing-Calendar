@@ -1,6 +1,6 @@
 # Time Boxing Application
 
-Time-Boxing app that improves efficiency and decreases stress by encouraging users to plan their entire day with multiple activities at every given points to improve efficiency and prevent procrastionation.
+Time-Boxing app that improves efficiency and decreases stress by encouraging users to plan their entire day with multiple activities at every given points to improve efficiency and prevent procrastionation. Application supports both ios and android.
 
 ## Getting Started
 
