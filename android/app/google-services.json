@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "124795521104",
+    "firebase_url": "https://boxing-calendar-8544e.firebaseio.com",
+    "project_id": "boxing-calendar-8544e",
+    "storage_bucket": "boxing-calendar-8544e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:124795521104:android:11121707f44aea84e9e955",
+        "android_client_info": {
+          "package_name": "com.example.time"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "124795521104-kui0h9k2emu4mllpgn0p1jfff9kk5u62.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.time",
+            "certificate_hash": "eb116fa7e3cb0d435ebb7f97aa798a6822fc7788"
+          }
+        },
+        {
+          "client_id": "124795521104-jrk06hluprvbgrqfugi7pg4j09plhier.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-l7BEmMBbyE6SPfclJ3D0Q2zNpkIRDKk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "124795521104-jrk06hluprvbgrqfugi7pg4j09plhier.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
