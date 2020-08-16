@@ -1,4 +1,5 @@
 import 'package:firebase_helpers/firebase_helpers.dart';
+import 'package:time/event_firestore_service.dart';
 
 class EventModel extends DatabaseItem{
   final String id;

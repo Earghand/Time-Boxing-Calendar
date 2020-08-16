@@ -32,7 +32,7 @@ dependencies:
   table_calendar: ^2.2.1
   shared_preferences: ^0.5.4+5
   cloud_firestore: ^0.13.5
-
+  syncfusion_flutter_calendar: ^18.2.48
 dev_dependencies:
   flutter_test:
     sdk: flutter

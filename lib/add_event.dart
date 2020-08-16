@@ -16,6 +16,7 @@ class _AddEventPageState extends State<AddEventPage> {
   TextEditingController _title;
   TextEditingController _description;
   DateTime _eventDate;
+  DateTime _eventTime;
   final _formKey = GlobalKey<FormState>();
   final _key = GlobalKey<ScaffoldState>();
   bool processing;
@@ -26,6 +27,7 @@ class _AddEventPageState extends State<AddEventPage> {
     _title = TextEditingController(text: widget.note != null ? widget.note.title : "");
     _description = TextEditingController(text:  widget.note != null ? widget.note.description : "");
     _eventDate = DateTime.now();
+    print(DateTime.now());
     processing = false;
   }
 
@@ -112,7 +114,7 @@ class _AddEventPageState extends State<AddEventPage> {
                           await eventDBS.createItem(EventModel(
                               title: _title.text,
                               description: _description.text,
-                              eventDate: DateTime.now()
+                              eventDate: _eventDate
                           ));
                         }
                         Navigator.pop(context);
